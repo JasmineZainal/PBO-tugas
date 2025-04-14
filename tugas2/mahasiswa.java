@@ -28,10 +28,9 @@ public class mahasiswa {
     }
     
     //method tanpa parameter
-    public void tampildata()
-    {
+    public void tampildata(){
         System.out.println("----------------------------");
-        System.out.println("DATA MAHASISWA");
+        System.out.println("DATA mahasiswa");
         System.out.println("----------------------------");
         System.out.println("NIM : " +nim);
         System.out.println("NAMA : " +nama);
