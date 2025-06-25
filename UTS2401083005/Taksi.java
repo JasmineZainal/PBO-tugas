@@ -8,6 +8,30 @@ package UTS2401083005;
  *
  * @author Jasminee
  */
-public class Taksi {
-    
+public class Taksi extends Kendaraan{
+    // Atribut khusus Taksi
+    private int tarifAwal;
+    private int tarifperKM;
+
+    // Setter untuk tarifAwal
+    public void setTarifAwal(int tarifAwal) {
+        this.tarifAwal = tarifAwal;
+    }
+
+    // Getter untuk tarifAwal
+    public int getTarifAwal() {
+        return this.tarifAwal;
+    }
+
+    // Setter untuk tarifperKM
+    public void setTarifPerKm(int tarifperKM) {
+        this.tarifperKM = tarifperKM;
+    }
+
+    // Getter untuk tarifperKM
+    public int getTarifPerKm() {
+        return this.tarifperKM;
+    }
+
+
 }
